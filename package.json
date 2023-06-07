@@ -1,0 +1,26 @@
+{
+  "name": "wireshark",
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare"
+  },
+  "devDependencies": {
+    "@types/lodash": "^4.14.195",
+    "@types/node": "^18",
+    "@types/pako": "^2.0.0",
+    "nuxt": "^3.5.2"
+  },
+  "dependencies": {
+    "@goodtools/wiregasm": "^1.2.0",
+    "ant-design-vue": "^3.2.20",
+    "lodash": "^4.17.21",
+    "nuxt-windicss": "^2.6.1",
+    "pako": "^2.1.0",
+    "sass": "^1.62.1",
+    "vite-plugin-node-polyfills": "^0.8.2",
+    "ws": "^8.13.0"
+  }
+}
